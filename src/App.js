@@ -19,7 +19,7 @@ function App() {
       <div className="App">
         Reactjs App
         <button onClick={(e) => changeNameHandler(e)}>Change name</button>
-        <Person name={persons[0].name} age = {persons[0].age}/>
+        <Person click={changeNameHandler} name={persons[0].name} age = {persons[0].age}/>
         <Person name={persons[1].name} age = {persons[1].age}/>
         <Person name='duc2' age='13' >
           chirden persion
